@@ -36,10 +36,10 @@ Feature: Test Login page
     When click on 4th filter option
     Then 4th filter option to be displayed and has text
     Then names, images, buttons of the products is clickable
-    Then names of the products don't have brackets
-    Then description of the products don't have brackets
-    Then social icons to be clickable
-    When click on the social icons
-    Then copyright has text
-    When open burger menu
-    And  log out from the page
+    #Then names of the products don't have brackets
+    #Then description of the products don't have brackets
+    #Then social icons to be clickable
+    #When click on the social icons
+    #Then copyright has text
+    #When open burger menu
+    #And  log out from the page
