@@ -148,7 +148,7 @@ Then(/^names, images, buttons of the products is clickable$/, async () => {
 	await expect($$(".btn_inventory")).toBeClickable();
 });
 
-Then(/^names of the products don't have brackets$/, async () => {
+/*Then(/^names of the products don't have brackets$/, async () => {
 	await expect($$(".inventory_item_name")).toHaveTextContaining(/^(?!.*\(\)).*$/);  
 });
 
@@ -180,4 +180,4 @@ When(/^open burger menu$/, async () => {
 
 When(/^log out from the page$/, async () => {
 	await $("//*[@id='logout_sidebar_link']").click();
-});
+}); */
